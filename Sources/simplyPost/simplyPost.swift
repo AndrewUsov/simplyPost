@@ -1,0 +1,6 @@
+public struct simplyPost {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
