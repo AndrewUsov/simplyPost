@@ -8,4 +8,8 @@ final class simplyPostTests: XCTestCase {
         // results.
         XCTAssertEqual(simplyPost().text, "Hello, World!")
     }
+    
+    func testSayHi() throws {
+        XCTAssertEqual(simplyPost().getFive(), "this is your five")
+    }
 }
